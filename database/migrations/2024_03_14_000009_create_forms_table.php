@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('forms', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->int('gender');
+            $table->integer('gender');
             $table->string('name');
             $table->string('surname');
             $table->string('phone');
